@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filmoteka", "Filmoteka\Filmoteka.csproj", "{2F7FB220-E4DB-4F3F-8104-BD30CF6C8250}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Filmoteka", "Filmoteka\Filmoteka.csproj", "{2F7FB220-E4DB-4F3F-8104-BD30CF6C8250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmotekaLibrary", "FilmotekaLibrary\FilmotekaLibrary.csproj", "{15EA658D-A52C-42FA-96AC-FE2B65A54AA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2F7FB220-E4DB-4F3F-8104-BD30CF6C8250}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F7FB220-E4DB-4F3F-8104-BD30CF6C8250}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F7FB220-E4DB-4F3F-8104-BD30CF6C8250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15EA658D-A52C-42FA-96AC-FE2B65A54AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EA658D-A52C-42FA-96AC-FE2B65A54AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EA658D-A52C-42FA-96AC-FE2B65A54AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EA658D-A52C-42FA-96AC-FE2B65A54AA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
