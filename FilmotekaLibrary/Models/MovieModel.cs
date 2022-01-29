@@ -11,8 +11,10 @@ namespace FilmotekaLibrary.Models
         public int Id { get; set; }
         public string OriginalName { get; set; }
         public string NationalName { get; set; }
+        public string FileName { get; set; }
+        public string FolderName { get; set; }
         public int Year { get; set; }
-        public bool IsWatched { get; set; }
+        public DateTime LastWatched { get; set; }
         public bool IsNotRelevant { get; set; }
 
 
