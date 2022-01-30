@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Filmoteka"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Filmoteka" Height="450" Width="800">
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            
+        </Grid.ColumnDefinitions>
+        
+    <!--Row 0-->
+        <Menu Grid.Row="0">
+            <MenuItem Header="_Main">
+                <MenuItem Header="Quit" />
+            </MenuItem>
+            <MenuItem Header="_Settings">
+                <MenuItem Header="Choose movie folders" />
+                <MenuItem Header="Choose file extensions" />
+            </MenuItem>
+            <MenuItem Header="_About">
+                <MenuItem Header="About Filmoteka" />
+            </MenuItem>
+        </Menu>
+    <!--Row 1-->
+        
     </Grid>
 </Window>
